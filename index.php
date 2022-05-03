@@ -4,7 +4,7 @@
     <title>ÇIFTLIK SISTEMLERI</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="img/1.jpeg">
+    <link rel="stylesheet" href="/img/1.jpg">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./AdminLTE 3 _ Log in_files/css">
@@ -83,6 +83,7 @@
     </style>
 </head>
 <body class="login-page back">
+    <img src="1.jpg" width="200" height="200">
     <div class="login-box">
         <div class="login-logo">
             <a href="https://adminlte.io/themes/v3/index2.html"><b>Admin</b>LTE</a>
