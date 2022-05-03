@@ -7,7 +7,7 @@
 
 
 
-
+# ciftlik_sistemi
 # Büyükbaş hayvanların ırk fark etmeksizin yaşadıkları süre boyunca daha verimli sonuçlar almayı hedefleyen sistemdir.
 # Büyükbaş hayvan yetiştiricilerinin daha iyi sonuçlar elde etmek için hayvan sağlığını da göz önünde bulundurarak yem rasyon programının hazırlanması.
 # Hayvanların sistem kontrolüyle aşı takviminin oluşturulması.
