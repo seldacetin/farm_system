@@ -1,0 +1,140 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['id'])) {
+    header('location: index.php');
+}
+
+$userId = $_SESSION['id'];
+$user = [];
+
+$db = null;
+try {
+    $db = new PDO("mysql:host=localhost;dbname=ciftlik_otomasyonu", "root" , "");
+} catch (PDOException $e ){
+    print $e->getMessage();
+}
+
+$query = $db->prepare("SELECT * FROM login WHERE id = :id");
+$query->execute([
+    ':id' => $userId
+]);
+
+$data = $query->fetchAll(\PDO::FETCH_ASSOC);
+
+foreach ($data as $val) {
+   foreach ($val as $item => $itemVal) {
+       $user[$item] = $itemVal;
+   }
+}
+
+?>
+
+<html>
+<head>
+    <title>ÇİFTLİK OTOMASYONU</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="wrapper">
+<nav class="navbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <div>
+                <a style="color: #666666" class="openmenu" data-widget="pushmenu" href="#" role="button"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                <a style="color: #666666" class="closemenu" data-widget="pushmenu" href="#" role="button"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li><i class="fa fa-search" aria-hidden="true"></i></li>
+        <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+        <li><i class="fa fa-arrows-alt" aria-hidden="true"></i></li>
+    </ul>
+</nav>
+
+<aside>
+        <div><a href="#" style="font-size: 30px; text-align: center; border-bottom: 2px solid #4f5962;"><?php echo $user['username']; ?> </a></div>
+    <ul>
+        <li><a href="#anasayfa">Anasayfa</a></li>
+        <li><a href="#kayit">Yeni Kayıt</a></li>
+        <li><a href="#sut">Süt Hayvanları</a></li>
+        <li><a href="#besi">Besideki Hayvanlar</a></li>
+        <li><a href="#bilgiler"></a></li>
+        <li>
+            <button class="dropdown-btn">Genel Bilgiler<i class="fa fa-caret-down"></i></button>
+        </li>
+        <div class="dropdown-container">
+            <ul class="mainmenu">
+                <li><a href="#">Buzağı</a></li>
+                <li><a href="#">Dana</a></li>
+                <li><a href="#">Düve</a></li>
+                <li><a href="#">Tosun</a></li>
+                <li><a href="#">İnek</a></li>
+                <li><a href="#">Boğa</a></li>
+                <li><a href="#">Öküz</a></li>
+            </ul>
+        </div>
+        <li><a href="#rapor">Mali Rapor</a></li>
+        <li><a href="#Ayarlar">Ayarlar</a></li>
+    </ul>
+</aside>
+
+
+
+
+<script src="js/home.js"></script>
+
+</body>
+</html>
+
+
+<!--
+<div>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <aside class="sidenav">
+        <div class="sidebar">
+            <div class="username">
+                <a href="#" style="font-size: 30px; text-align: center; border-bottom: 2px solid #4f5962;"><?php echo $user['username']; ?> </a>
+            </div>
+
+            <nav >
+                <ul class="sidemenu" >
+                    <li><a href="#anasayfa">Anasayfa</a></li>
+                    <li><a href="#kayit">Yeni Kayıt</a></li>
+                    <li><a href="#sut">Süt Hayvanları</a></li>
+                    <li><a href="#besi">Besideki Hayvanlar</a></li>
+                    <li><a href="#bilgiler"></a>
+                        <button class="dropdown-btn">Genel Bilgiler
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-container">
+                            <ul>
+                                <li><a href="#">Buzağı</a></li>
+                                <li><a href="#">Dana</a></li>
+                                <li><a href="#">Düve</a></li>
+                                <li><a href="#">Tosun</a></li>
+                                <li><a href="#">İnek</a></li>
+                                <li><a href="#">Boğa</a></li>
+                                <li><a href="#">Öküz</a></li>
+                            </ul>
+                        </div></li>
+                    <li><a href="#rapor">Mali Rapor</a></li>
+                    <li><a href="#Ayarlar">Ayarlar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+</div>
+-->
+
+
