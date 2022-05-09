@@ -1,12 +1,12 @@
 .arkaplan{
-    background-color:#d0e1e1;
+    background-color:#e9ecef;
 }
 .giris{
     text-align: center;
     padding-top: 400px;
 }
 form{
-    border: 1px solid #c1d7d7;
-    padding-left: 200px;
-    background-color: #c1d7d7;
+    border: 1px solid #fff;
+    padding-left: 100px;
+    background-color: #fff;
 }
