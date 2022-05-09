@@ -1,6 +1,12 @@
-.resim{
-    background-image: url("/img/2.jpeg");
-    height: 200px;
-    width: 200px;
-
+.arkaplan{
+    background-color:#d0e1e1;
+}
+.giris{
+    text-align: center;
+    padding-top: 400px;
+}
+form{
+    border: 1px solid #c1d7d7;
+    padding-left: 200px;
+    background-color: #c1d7d7;
 }
