@@ -19,21 +19,11 @@
 <body class="sidebar-mini layout-fixed" style="height: auto;">
 <div class="wrapper">
 
-    <div class="preloader flex-column justify-content-center align-items-center" style="height: 0px;">
-        <img class="animation__shake" src="./AdminLTE 3 _ Dashboard_files/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60" style="display: none;">
-    </div>
-
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
 
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" data-widget="pushmenu" href="https://adminlte.io/themes/v3/index.html#" role="button"><i class="fas fa-bars"></i></a>
-            </li>
-            <li class="nav-item d-none d-sm-inline-block">
-                <a href="https://adminlte.io/themes/v3/index3.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item d-none d-sm-inline-block">
-                <a href="https://adminlte.io/themes/v3/index.html#" class="nav-link">Contact</a>
             </li>
         </ul>
 
@@ -41,7 +31,7 @@
 
             <li class="nav-item">
                 <a class="nav-link" data-widget="navbar-search" href="https://adminlte.io/themes/v3/index.html#" role="button">
-                    <i class="fas fa-search"></i>
+                    <i class="fas fa-search fa-fw"></i>
                 </a>
                 <div class="navbar-search-block">
                     <form class="form-inline">
@@ -160,19 +150,11 @@
 
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
-        <a href="https://adminlte.io/themes/v3/index3.html" class="brand-link">
-            <img src="./AdminLTE 3 _ Dashboard_files/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">AdminLTE 3</span>
-        </a>
-
         <div class="sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition"><div class="os-resize-observer-host observed"><div class="os-resize-observer" style="left: 0px; right: auto;"></div></div><div class="os-size-auto-observer observed" style="height: calc(100% + 1px); float: left;"><div class="os-resize-observer"></div></div><div class="os-content-glue" style="margin: 0px -8px;"></div><div class="os-padding"><div class="os-viewport os-viewport-native-scrollbars-invisible" style="overflow-y: scroll;"><div class="os-content" style="padding: 0px 8px; height: 100%; width: 100%;">
 
                         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                            <div class="image">
-                                <img src="./AdminLTE 3 _ Dashboard_files/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                            </div>
                             <div class="info">
-                                <a href="https://adminlte.io/themes/v3/index.html#" class="d-block">Alexander Pierce</a>
+                                <a href="https://adminlte.io/themes/v3/index.html#" class="d-block">kullanıcı id</a>
                             </div>
                         </div>
 
@@ -1415,39 +1397,67 @@ Kenneth M.
     <div id="sidebar-overlay"></div></div>
 
 
-<script src="./AdminLTE 3 _ Dashboard_files/jquery.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/jquery.min.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/jquery-ui.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/jquery-ui.min.js"></script>
 
 <script>
     $.widget.bridge('uibutton', $.ui.button)
 </script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/bootstrap.bundle.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/bootstrap.bundle.min.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/Chart.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/Chart.min.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/sparkline.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/sparkline.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/jquery.vmap.min.js.indir"></script>
-<script src="./AdminLTE 3 _ Dashboard_files/jquery.vmap.usa.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/jquery.vmap.min.js"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/jquery.vmap.usa.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/jquery.knob.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/jquery.knob.min.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/moment.min.js.indir"></script>
-<script src="./AdminLTE 3 _ Dashboard_files/daterangepicker.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/moment.min.js"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/daterangepicker.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/tempusdominus-bootstrap-4.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/tempusdominus-bootstrap-4.min.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/summernote-bs4.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/summernote-bs4.min.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/jquery.overlayScrollbars.min.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/jquery.overlayScrollbars.min.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/adminlte.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/adminlte.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/demo.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/demo.js"></script>
 
-<script src="./AdminLTE 3 _ Dashboard_files/dashboard.js.indir"></script>
+<script src="./AdminLTE 3 _ Dashboard_files/dashboard.js"></script>
 
 
-<div class="daterangepicker ltr show-ranges opensright"><div class="ranges"><ul><li data-range-key="Today">Today</li><li data-range-key="Yesterday">Yesterday</li><li data-range-key="Last 7 Days">Last 7 Days</li><li data-range-key="Last 30 Days">Last 30 Days</li><li data-range-key="This Month">This Month</li><li data-range-key="Last Month">Last Month</li><li data-range-key="Custom Range">Custom Range</li></ul></div><div class="drp-calendar left"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-calendar right"><div class="calendar-table"></div><div class="calendar-time" style="display: none;"></div></div><div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button> </div></div><div class="jqvmap-label" style="display: none; left: 1420.17px; top: 515.016px;">Texas</div></body></html>
+<div class="daterangepicker ltr show-ranges opensright">
+    <div class="ranges">
+        <ul>
+            <li data-range-key="Today">Today</li>
+            <li data-range-key="Yesterday">Yesterday</li>
+            <li data-range-key="Last 7 Days">Last 7 Days</li>
+            <li data-range-key="Last 30 Days">Last 30 Days</li>
+            <li data-range-key="This Month">This Month</li>
+            <li data-range-key="Last Month">Last Month</li>
+            <li data-range-key="Custom Range">Custom Range</li>
+        </ul>
+    </div>
+    <div class="drp-calendar left">
+        <div class="calendar-table"></div>
+        <div class="calendar-time" style="display: none;"></div>
+    </div>
+    <div class="drp-calendar right">
+        <div class="calendar-table"></div>
+        <div class="calendar-time" style="display: none;"></div>
+    </div>
+    <div class="drp-buttons">
+        <span class="drp-selected"></span>
+        <button class="cancelBtn btn btn-sm btn-default" type="button">Cancel</button>
+        <button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Apply</button>
+    </div>
+</div>
+<div class="jqvmap-label" style="display: none; left: 1420.17px; top: 515.016px;">Texas</div>
+</body>
+</html>
