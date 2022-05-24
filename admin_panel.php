@@ -6,8 +6,8 @@
     <title>ÇIFTLIK SISTEMLERI</title>
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/all.min.css">
-    <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/ionicons.min.css">
-    <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/ionic.min.css">
+    <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/tempus_dominus-bootstrap-4.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/jqvmap.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/adminlte.min.css">
