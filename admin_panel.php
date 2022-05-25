@@ -277,7 +277,7 @@ foreach ($data as $val) {
                     <div class="col-lg-3 col-6">
                         <div class="small-box bg-info">
                             <div class="inner">
-                                <h3>150</h3>
+                                <h3>0</h3>
                                 <p>Toplam Sayı</p>
                             </div>
                         </div>
@@ -285,23 +285,23 @@ foreach ($data as $val) {
                     <div class="col-lg-3 col-6">
                         <div class="small-box bg-success">
                             <div class="inner">
-                                <h3>53<sup style="font-size: 20px">%</sup></h3>
-                                <p>Kar Yüzdesi</p>
+                                <h3>0<sup style="font-size: 20px">%</sup></h3>
+                                <p>Süt Ortalaması</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-6">
                         <div class="small-box bg-warning">
                             <div class="inner">
-                                <h3>44</h3>
-                                <p>Süt Oranı</p>
+                                <h3>0</h3>
+                                <p>xxxxxxxxx</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-6">
                         <div class="small-box bg-danger">
                             <div class="inner">
-                                <h3>65</h3>
+                                <h3>0</h3>
                                 <p>xxxxxxxx</p>
                             </div>
                         </div>
