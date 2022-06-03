@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" style="height: auto;">
 <head>
-    <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/css">
-    <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/all.min.css">
+    <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/css.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/daterangepicker.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/bootstrap-colorpicker.min.css">
@@ -23,6 +22,8 @@
     <div class="content-wrapper" style="min-height: 1345.31px;">
         <section class="content">
             <div class="container-fluid">
+
+
                 <div class="card card-default">
                     <div class="card-header">
                         <h3 class="card-title">Sığır Irkları</h3>
