@@ -288,7 +288,6 @@
         </div>
     </aside>
 
-
     <script src="./AdminLTE 3 _ Dashboard_files/jquery.min.js"></script>
     <script src="./AdminLTE 3 _ Dashboard_files/jquery-ui.min.js"></script>
     <script>$.widget.bridge('uibutton', $.ui.button)</script>
