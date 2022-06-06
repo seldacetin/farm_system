@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/dropzone.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Advanced form elements_files/adminlte.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ General Form Elements_files/css.css">
-    <link rel="stylesheet" href="./AdminLTE 3 _ General Form Elements_files/all.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ General Form Elements_files/adminlte.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ DataTables_files/css.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ DataTables_files/dataTables.bootstrap4.min.css">

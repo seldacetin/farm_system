@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/tempusdominus-bootstrap-4.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/jqvmap.min.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/adminlte.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/OverlayScrollbars.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/daterangepicker.css">
@@ -178,7 +179,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="ası_takvimi.php#" class="nav-link">
                                         <i class="nav-icon fa fa-calendar" aria-hidden="true"></i>
                                         <p>
                                             Aşı Takvimi
@@ -186,7 +187,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="ureme_takvimi.php#" class="nav-link">
                                         <i class="nav-icon fa fa-calendar" aria-hidden="true"></i>
                                         <p>
                                             Üreme Takvimi
