@@ -368,6 +368,9 @@
             document.querySelector("#total-progress").style.opacity = "0"
         })
 
+
+
+
         // Setup the buttons for all transfers
         // The "add files" button doesn't need to be setup because the config
         // `clickable` has already been specified.
