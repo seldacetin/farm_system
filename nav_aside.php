@@ -179,7 +179,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="kayıt_form.php#" class="nav-link">
+                                    <a href="#" class="nav-link">
                                         <i class="nav-icon fa fa-calendar" aria-hidden="true"></i>
                                         <p>
                                             Aşı Takvimi
