@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ÇIFTLIK SISTEMLERI</title>
     <link rel="stylesheet" href="./AdminLTE 3 _ Log in_files/css.css">
+    <link rel="stylesheet" href="./AdminLTE 3 _ Log in_files/all.min.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Log in_files/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Log in_files/adminlte.min.css">

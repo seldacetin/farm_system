@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ÇIFTLIK SISTEMLERI</title>
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/css.css">
+    <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/all.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/tempusdominus-bootstrap-4.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/icheck-bootstrap.min.css">
     <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/jqvmap.min.css">
@@ -180,7 +181,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="ası_takvimi.php#" class="nav-link">
+                                    <a href="ası_takip.php#" class="nav-link">
                                         <i class="nav-icon fa fa-heartbeat" aria-hidden="true"></i>
                                         <p>
                                             Aşı Takip
@@ -188,7 +189,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="ureme_takvimi.php#" class="nav-link">
+                                    <a href="ureme_takip.php#" class="nav-link">
                                         <i class="nav-icon fa fa-venus-mars" aria-hidden="true"></i>
                                         <p>
                                             Üreme Takip
@@ -212,7 +213,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="hayvanRefahı.php#" class="nav-link">
                                         <i class="nav-icon fa fa-columns" aria-hidden="true"></i>
                                         <p>
                                             Hayvan Refahı

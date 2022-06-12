@@ -192,10 +192,11 @@
                                         <thead>
                                             <tr>
                                                 <th class="sorting sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">Sıra</th>
+                                                <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1">Küpe Numarası</th>
                                                 <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1">Anne Küpe Numarası</th>
                                                 <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1">Cinsiyet</th>
                                                 <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1">Irk</th>
-                                                <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1">Doğum Tarihi</th>
+                                                <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1">Kaçıncı Doğumda</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -205,9 +206,11 @@
                                                 <td>xxx</td>
                                                 <td>xxx</td>
                                                 <td>xxx</td>
+                                                <td>xxx</td>
                                             </tr>
                                             <tr class="even">
                                                 <td class="dtr-control sorting_1" tabindex="0">xxx</td>
+                                                <td>xxx</td>
                                                 <td>xxx</td>
                                                 <td>xxx</td>
                                                 <td>xxx</td>
