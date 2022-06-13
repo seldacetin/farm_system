@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-12" id="accordion">
                         <div class="card card-primary card-outline">
-                            <a class="d-block w-100" data-toggle="collapse" href="https://adminlte.io/themes/v3/pages/examples/faq.html#collapseOne">
+                            <a class="d-block w-100" data-toggle="collapse" href="#collapseOne">
                                 <div class="card-header">
                                     <h4 class="card-title w-100">
                                         Hayvan Bakımı
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <div class="card card-primary card-outline">
-                            <a class="d-block w-100" data-toggle="collapse" href="https://adminlte.io/themes/v3/pages/examples/faq.html#collapseTwo">
+                            <a class="d-block w-100" data-toggle="collapse" href="#collapseTwo">
                                 <div class="card-header">
                                     <h4 class="card-title w-100">
                                         Barınma Koşulları
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                         <div class="card card-primary card-outline">
-                            <a class="d-block w-100" data-toggle="collapse" href="https://adminlte.io/themes/v3/pages/examples/faq.html#collapseThree">
+                            <a class="d-block w-100" data-toggle="collapse" href="#collapseThree">
                                 <div class="card-header">
                                     <h4 class="card-title w-100">
                                         Beslenme
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <div class="card card-warning card-outline">
-                            <a class="d-block w-100" data-toggle="collapse" href="https://adminlte.io/themes/v3/pages/examples/faq.html#collapseFour">
+                            <a class="d-block w-100" data-toggle="collapse" href="#collapseFour">
                                 <div class="card-header">
                                     <h4 class="card-title w-100">
                                         Üreme
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                         <div class="card card-warning card-outline">
-                            <a class="d-block w-100" data-toggle="collapse" href="https://adminlte.io/themes/v3/pages/examples/faq.html#collapseFive">
+                            <a class="d-block w-100" data-toggle="collapse" href="#collapseFive">
                                 <div class="card-header">
                                     <h4 class="card-title w-100">
                                         Sağlık
@@ -96,7 +96,7 @@
                             </div>
                         </div>
                         <div class="card card-warning card-outline">
-                            <a class="d-block w-100" data-toggle="collapse" href="https://adminlte.io/themes/v3/pages/examples/faq.html#collapseSix">
+                            <a class="d-block w-100" data-toggle="collapse" href="#collapseSix">
                                 <div class="card-header">
                                     <h4 class="card-title w-100">
                                         Hayvan Sağlık ve Kesim Koşulları
