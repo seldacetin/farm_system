@@ -18,7 +18,7 @@
 
     <div class="card">
         <div class="card-body login-card-body">
-            <form action="#" method="post">
+            <form action="admin_panel.php" method="post">
                 <div class="input-group mb-3">
                     <input type="email" class="form-control" placeholder="Email">
                     <div class="input-group-append">
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <button type="submit" class="btn btn-primary btn-block"><a href="admin_panel.php" >Giriş</a></button>
+                        <a href=""><input type="submit" class="btn btn-primary btn-block" value ="Giriş"></a>
                     </div>
                 </div>
             </form>

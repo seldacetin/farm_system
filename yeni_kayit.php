@@ -41,19 +41,10 @@
                             <form>
                                 <div class="row card-body" >
                                     <div class="col-md-6">
-                                        <div class="form-group row" style="margin-left: 2px">
-                                            <div class="form-check col-md-6">
-                                                <input class="form-check-input" type="radio" name="radio1">
-                                                <label class="form-check-label">Yeni Doğan</label>
-                                            </div>
-
-                                        </div>
-                                        <div class="">
-                                            <div class="form-group">
+                                            <div class="form-group" style="margin-top: 15px">
                                                 <label>Anne Küpe Numarası</label>
                                                 <input type="text" class="form-control" required="required">
                                             </div>
-                                        </div>
                                         <div class="form-group">
                                             <label>Cinsiyet</label>
                                             <select class="form-control" required="required">
@@ -62,29 +53,11 @@
                                                 <option>Erkek</option>
                                             </select>
                                         </div>
-                                        <div class="form-group">
-                                            <label>Irkı</label>
-                                            <select class="form-control" required="required">
-                                                <option></option>
-                                                <option>Angus</option>
-                                                <option>Bekçika Mavisi</option>
-                                                <option>Boz Sığırı</option>
-                                                <option>Charolais(Şarole)</option>
-                                                <option>Doğu Anadolu Kırmızısı</option>
-                                                <option>Guemsey Sığırı</option>
-                                                <option>Güney Anadolu Kırmızısı</option>
-                                                <option>Hereford</option>
-                                                <option>Holstein(Siyah&Beyaz Alaca)</option>
-                                                <option>Jersey</option>
-                                                <option>Limousin(Limusin)</option>
-                                                <option>Manda</option>
-                                                <option>Montbeliarde</option>
-                                                <option>Montofon(İsviçre Esmeri)</option>
-                                                <option>Simmental</option>
-                                                <option>Swedish(İsveç Kırmızısı)</option>
-                                                <option>Yerli Kara Sığırı</option>
-                                                <option>Zavot</option>
-                                            </select>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Kaçıncı Doğumda</label>
+                                                <input type="number" class="form-control">
+                                            </div>
                                         </div>
                                         <div class="">
                                             <div class="form-group">
@@ -97,40 +70,14 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label>Yeni Doğan Aşıları</label>
-                                            <div class="row" style="margin-left: 2px">
-                                                <div class="form-check col-md-4">
-                                                    <input class="form-check-input" type="checkbox">
-                                                    <label class="form-check-label">Septisemi Serumu</label>
-                                                </div>
-                                                <div class="form-check col-md-4">
-                                                    <input class="form-check-input" type="checkbox">
-                                                    <label class="form-check-label">Trikofiti</label>
-                                                </div>
-                                            <div class="col-md-4"></div></div>
-                                        </div>
+
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <div class="form-check col-md-6">
-                                                <input class="form-check-input" type="radio" name="radio1" >
-                                                <label class="form-check-label">Yetişkin</label>
-                                            </div>
-                                            <div class="">
                                                 <div class="form-group" style="margin-top: 15px">
                                                     <label>Küpe Numarası</label>
                                                     <input type="text" class="form-control" required="required">
                                                 </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Cinsiyet</label>
-                                                <select class="form-control" required="required">
-                                                    <option></option>
-                                                    <option>Dişi</option>
-                                                    <option>Erkek</option>
-                                                </select>
-                                            </div>
                                             <div class="form-group">
                                                 <label>Irkı</label>
                                                 <select class="form-control" required="required">
@@ -155,22 +102,41 @@
                                                     <option>Zavot</option>
                                                 </select>
                                             </div>
-                                            <div class="">
-                                                <div class="form-group">
-                                                    <label>Kaçıncı Doğumda</label>
-                                                    <input type="number" class="form-control">
-                                                </div>
-                                            </div>
+
                                             <div class="">
                                                 <div class="form-group">
                                                     <label>Kaç Aylık Gebe</label>
                                                     <input type="number" class="form-control">
                                                 </div>
                                             </div>
-                                            <div class="">
-                                                <div class="form-group">
-                                                    <label>Yaş</label>
-                                                    <input type="number" class="form-control" placeholder="Ay Olarak" required="required">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label>Yeni Doğan Aşıları</label>
+                                                        <div style="margin-left: 2px">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox">
+                                                                <label class="form-check-label">Septisemi Serumu</label>
+                                                            </div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox">
+                                                                <label class="form-check-label">Trikofiti</label>
+                                                            </div>
+                                                            <div class="col-md-4"></div></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group" style="margin-left: 2px">
+                                                        <label>Kayıt Türü</label>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="radio1">
+                                                            <label class="form-check-label">Yeni Doğan</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="radio1">
+                                                            <label class="form-check-label">Yetişkin</label>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
