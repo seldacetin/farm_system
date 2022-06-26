@@ -9,7 +9,18 @@ class sqlbaglanti{
     var $baglanti;
 
     function __construct(){
+        try{
+        $this->baglanti=new PDO("mysql:host=".$this->sunucu.";dbname=".$this->dbname.";charset=utf8",$this->username,$this->password);
+        }catch (PDOException $error){
+            echo $error->getMessage();
+            exit();
+        }
+    }
 
+    public function VeriGetir($tablo, $wherealanlar="", $wherearraydeger="", $ordeby="ORDER BY ID ASC", $limit="" ){
+        $this->baglanti->query("SET CHARACTER SET ut8");
+        $sql="SELECT * FROM".$tablo;
+        if (!empty($wherealanlar))
     }
 
 }

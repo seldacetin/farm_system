@@ -1,3 +1,5 @@
+<?php include_once "sql.php";?>
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
