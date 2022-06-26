@@ -1,3 +1,5 @@
+<?php include "sql.php";?>
+
 <!DOCTYPE html>
 <html lang="en" style="height: auto;">
 <head>
@@ -96,7 +98,7 @@
 
                         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                             <div class="info">
-                                <a href="#" class="d-block">kullanıcı id</a>
+                                <a href="#" class="d-block"><?php echo $user['username']; ?></a>
                             </div>
                         </div>
 

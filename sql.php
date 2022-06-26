@@ -1,4 +1,23 @@
 <?php
+
+class sqlbaglanti{
+
+    var $sunucu="localhost";
+    var $username="root";
+    var $password="";
+    var $dbname="ciftlik_sistemleri";
+    var $baglanti;
+
+    function __construct(){
+
+    }
+
+}
+?>
+
+
+<?php
+/*
 session_start();
 
 if (!isset($_SESSION['id'])) {
@@ -27,4 +46,5 @@ foreach ($data as $val) {
         $user[$item] = $itemVal;
     }
 }
+*/
 ?>

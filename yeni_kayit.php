@@ -167,20 +167,20 @@
                                         </thead>
                                         <tbody>
                                             <tr class="odd">
-                                                <td class="dtr-control sorting_1" tabindex="0">xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
+                                                <td class="dtr-control sorting_1" tabindex="0"></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                             <tr class="even">
-                                                <td class="dtr-control sorting_1" tabindex="0">xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
-                                                <td>xxx</td>
+                                                <td class="dtr-control sorting_1" tabindex="0"></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                         </tbody>
                                     </table>
