@@ -118,7 +118,7 @@
                                                                 <input class="form-check-input" type="checkbox">
                                                                 <label class="form-check-label">Septisemi Serumu</label>
                                                             </div>
-                                                            <div class="form-ch eck">
+                                                            <div class="form-check">
                                                                 <input class="form-check-input" type="checkbox">
                                                                 <label class="form-check-label">Trikofiti</label>
                                                             </div>
