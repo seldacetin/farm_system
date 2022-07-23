@@ -20,7 +20,7 @@ class sqlbaglanti{
     public function VeriGetir($tablo, $wherealanlar="", $wherearraydeger="", $ordeby="ORDER BY ID ASC", $limit="" ){
         $this->baglanti->query("SET CHARACTER SET ut8");
         $sql="SELECT * FROM".$tablo;
-        if (!empty($wherealanlar))
+        if (!empty($wherealanlar));
     }
 
 }
