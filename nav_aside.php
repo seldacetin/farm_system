@@ -217,48 +217,9 @@
                                         <i class="nav-icon fa fa-columns" aria-hidden="true"></i>
                                         <p>
                                             Hayvan Refahı
-                                            <i class="right fa fa-angle-left" aria-hidden="true"></i>
                                         </p>
                                     </a>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="fa fa-circle-thin nav-icon" aria-hidden="true"></i>
-                                                <p>Hayvan Bakımı</p>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="fa fa-circle-thin nav-icon" aria-hidden="true"></i>
-                                                <p>Barınma Koşulları</p>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="fa fa-circle-thin nav-icon" aria-hidden="true"></i>
-                                                <p>Beslenme</p>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="fa fa-circle-thin nav-icon" aria-hidden="true"></i>
-                                                <p>Üreme</p>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="fa fa-circle-thin nav-icon" aria-hidden="true"></i>
-                                                <p>sağlık</p>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="fa fa-circle-thin nav-icon" aria-hidden="true"></i>
-                                                <p>Hayvan Nakliye ve Kesim Koşulları</p>
-                                            </a>
-                                        </li>
 
-                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">

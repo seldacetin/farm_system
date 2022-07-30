@@ -1,9 +1,7 @@
-.bg-image {
+.resim{
     background-image: url("img/1.jpg");
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.5;
 }
