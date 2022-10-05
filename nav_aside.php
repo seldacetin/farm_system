@@ -141,7 +141,7 @@
                             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
                                 <li class="nav-item">
-                                    <a href="admin_panel.php#" class="nav-link ">
+                                    <a href="admin_panel.php" class="nav-link ">
                                         <i class="nav-icon fa fa-tachometer" aria-hidden="true"></i>
                                         <p>
                                             Anasayfa
@@ -150,7 +150,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="yeni_kayit.php#" class="nav-link">
+                                    <a href="yeni_kayit.php" class="nav-link">
                                         <i style="margin-left: 7px;" class="fa fa-plus-square" aria-hidden="true"></i>
                                         <p style="margin-left: 10px;">
                                             Yeni Kayıt
@@ -158,7 +158,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="yem_rasyon.php" class="nav-link">
                                         <i class="nav-icon fa fa-pencil-square-o" aria-hidden="true"></i>
                                         <p>
                                             Yem Rasyon
@@ -181,7 +181,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="ası_takip.php#" class="nav-link">
+                                    <a href="ası_takip.php" class="nav-link">
                                         <i class="nav-icon fa fa-heartbeat" aria-hidden="true"></i>
                                         <p>
                                             Aşı Takip
@@ -189,7 +189,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="ureme_takip.php#" class="nav-link">
+                                    <a href="ureme_takip.php" class="nav-link">
                                         <i class="nav-icon fa fa-venus-mars" aria-hidden="true"></i>
                                         <p>
                                             Üreme Takip
@@ -213,7 +213,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="hayvanRefahı.php#" class="nav-link">
+                                    <a href="hayvanRefahı.php" class="nav-link">
                                         <i class="nav-icon fa fa-columns" aria-hidden="true"></i>
                                         <p>
                                             Hayvan Refahı

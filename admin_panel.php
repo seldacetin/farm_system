@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" style="height: auto;">
+<head>
+    <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/adminlte.min.css">
+    <link rel="stylesheet" href="./AdminLTE 3 _ Dashboard_files/all.min.css">
+</head>
 <body class="sidebar-mini layout-fixed" style="height: auto;">
 <div class="wrapper">
 

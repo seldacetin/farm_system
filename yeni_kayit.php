@@ -48,7 +48,7 @@
                                         <div class="form-group">
                                             <label>Cinsiyet</label>
                                             <select class="form-control" required="required">
-                                                <option></option>
+                                                <option>-Lütfen Birini Seçiniz-</option>
                                                 <option>Dişi</option>
                                                 <option>Erkek</option>
                                             </select>
@@ -81,7 +81,7 @@
                                             <div class="form-group">
                                                 <label>Irkı</label>
                                                 <select class="form-control" required="required">
-                                                    <option></option>
+                                                    <option>-Lütfen Birini Seçiniz-</option>
                                                     <option>Angus</option>
                                                     <option>Bekçika Mavisi</option>
                                                     <option>Boz Sığırı</option>
